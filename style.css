@@ -77,5 +77,6 @@ li {
 }
 
 .task-done span {
-    color: #16a34a;
+    text-decoration: line-through;
+    color: #9ca3af;
 }
