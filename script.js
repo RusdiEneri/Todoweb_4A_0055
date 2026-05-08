@@ -5,8 +5,8 @@ const inputTanggal = document.getElementById('inputTanggal');
 
 btnTambah.addEventListener('click', function() {
 
-    if (inputTugas.value === '') {
-        alert('Tolong masukkan tugas!');
+    if (inputTugas.value === '' || inputTanggal.value === '') {
+        alert('Nama tugas dan tanggal harus diisi!');
         return;
     }
 
