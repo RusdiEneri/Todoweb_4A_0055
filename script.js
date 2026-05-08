@@ -4,11 +4,9 @@ const daftarTugas = document.getElementById('daftarTugas');
 const inputTanggal = document.getElementById('inputTanggal');
 
 btnTambah.addEventListener('click', function() {
-    
-    let inputTugasValue = inputTugas.value;
     let inputTanggalValue = inputTanggal.value;
 
-    if (inputTugasValue === '') {
+    if (inputTugas.value === '') {
         alert('Tolong masukkan tugas!');
         return;
     }
@@ -16,7 +14,7 @@ btnTambah.addEventListener('click', function() {
     let listBaru = document.createElement('li');
     let spanBaru = document.createElement('span');
     
-    spanBaru.innerHTML = inputTugasValue;
+    spanBaru.innerHTML = inputTugas.value;
 
     listBaru.appendChild(spanBaru);
 
