@@ -6,6 +6,7 @@ const inputTanggal = document.getElementById('inputTanggal');
 btnTambah.addEventListener('click', function() {
     
     let teksTugas = inputTugas.value;
+    let inputTanggalValue = inputTanggal.value;
 
     if (teksTugas === '') {
         alert('Tolong masukkan tugas!');
