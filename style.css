@@ -59,7 +59,18 @@ li {
 }
 
 .status-label, .status-progress {
-    margin-top: 20px;
-    font-weight: bold;
-    color: #4f46e5;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #fef9c3;
+    color: #92400e;
+    align-self: center;
+}
+
+.status-done {
+    color: #16a34a;
+}
+
+.task-done span {
+    color: #16a34a;
 }
