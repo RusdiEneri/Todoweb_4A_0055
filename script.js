@@ -15,18 +15,20 @@ btnTambah.addEventListener('click', function() {
 
     let listBaru = document.createElement('li');
 
-    // let checkbox = document.createElement("input");
-    // checkbox.type = "checkbox";
-    // listbaru.appendChild(checkbox);
+    let checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    listBaru.appendChild(checkbox);
 
     // const containerTeks = document.createElement("div");
     // containerTeks.style.flex = "1";
 
-    let spanBaru = document.createElement('span');
-    
-    spanBaru.innerHTML = teksTugas;
+    let spanTugas = document.createElement('span');
+    spanTugas.innerHTML = teksTugas;
+    listBaru.appendChild(spanTugas);
 
-    listBaru.appendChild(spanBaru);
+    let spanTanggal = document.createElement('small');
+    spanTanggal.innerHTML =  ` (${teksTanggal}) `;
+    listBaru.appendChild(spanTanggal);
 
     daftarTugas.appendChild(listBaru);
 
