@@ -1,24 +1,30 @@
 const inputTugas = document.getElementById('inputTugas');
 const btnTambah = document.getElementById('btnTambah');
 const daftarTugas = document.getElementById('daftarTugas');
-const inputTanggal = document.getElementById('inputTanggal');
+const inputTanggal = document.getElementById('inputTanggal'); //baru
 
 btnTambah.addEventListener('click', function() {
 
-    if (inputTugas.value === '' || inputTanggal.value === '') {
+    let teksTugas = inputTugas.value;
+    let teksTanggal = inputTanggal.value;
+    
+    if (teksTugas === '' || teksTanggal === '') {
         alert('Nama tugas dan tanggalnya harus diisi!');
         return;
     }
 
     let listBaru = document.createElement('li');
-    
+
     let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     listbaru.appendChild(checkbox);
 
+    const containerTeks = document.createElement("div");
+    containerTeks.style.flex = "1";
+
     let spanBaru = document.createElement('span');
     
-    spanBaru.innerHTML = inputTugas.value;
+    spanBaru.innerHTML = teksTugas;
 
     listBaru.appendChild(spanBaru);
 
