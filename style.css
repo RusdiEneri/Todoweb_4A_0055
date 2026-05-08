@@ -68,7 +68,12 @@ li {
 }
 
 .status-done {
-    color: #16a34a;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #dcfce7;
+    color: #166534;
+    align-self: center;
 }
 
 .task-done span {
