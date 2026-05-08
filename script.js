@@ -24,12 +24,10 @@ btnTambah.addEventListener('click', function() {
 
     let spanTugas = document.createElement('span');
     spanTugas.innerHTML = teksTugas;
-    listBaru.appendChild(spanTugas);
 
     let spanTanggal = document.createElement('small');
     spanTanggal.innerHTML =  ` (${teksTanggal}) `;
     spanTanggal.style.display = "block";
-    listBaru.appendChild(spanTanggal);
 
     containerTeks.appendChild(spanTugas);
     containerTeks.appendChild(spanTanggal);
