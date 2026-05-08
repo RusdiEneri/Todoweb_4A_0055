@@ -44,3 +44,22 @@ li {
 .hapus:hover {
     background: #dc2626;
 }
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.checkbox:checked + .teks {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
+.teks {
+    flex: 1;
+}
+
+.status-label, .status-progress {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4f46e5;
+}
