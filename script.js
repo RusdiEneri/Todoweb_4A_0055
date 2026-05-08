@@ -64,7 +64,16 @@ btnTambah.addEventListener('click', function() {
     };
     listbaru.appendChild(btnEdit);
 
-    
+    const btnDelete = document.createElement("button");
+    btnDelete.innerHTML = "Delete";
+    btnDelete.className = "btn-delete";
+
+    btnDelete.onclick = function(){
+        if(confirm("Hapus tugas ini?")){
+            listbaru.remove();
+        }
+    };
+    listbaru.appendChild(btnDelete);
 
     daftarTugas.appendChild(listBaru);
 
