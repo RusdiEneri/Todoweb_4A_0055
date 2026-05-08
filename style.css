@@ -90,3 +90,7 @@ li {
     cursor: pointer;
     margin-left: 5px;
 }
+
+.btn-edit:hover {
+    background: #d97706;
+}
