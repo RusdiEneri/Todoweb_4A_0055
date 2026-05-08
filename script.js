@@ -4,7 +4,6 @@ const daftarTugas = document.getElementById('daftarTugas');
 const inputTanggal = document.getElementById('inputTanggal');
 
 btnTambah.addEventListener('click', function() {
-    let inputTanggalValue = inputTanggal.value;
 
     if (inputTugas.value === '') {
         alert('Tolong masukkan tugas!');
