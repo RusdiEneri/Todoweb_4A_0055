@@ -62,7 +62,7 @@ btnTambah.addEventListener('click', function() {
             spanTugas.innerHTML = newTask;           
         }
     };
-    listbaru.appendChild(btnEdit);
+    listBaru.appendChild(btnEdit);
 
     const btnDelete = document.createElement("button");
     btnDelete.innerHTML = "Delete";
