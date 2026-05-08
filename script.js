@@ -6,11 +6,15 @@ const inputTanggal = document.getElementById('inputTanggal');
 btnTambah.addEventListener('click', function() {
 
     if (inputTugas.value === '' || inputTanggal.value === '') {
-        alert('Nama tugas dan tanggal harus diisi!');
+        alert('Nama tugas dan tanggalnya harus diisi!');
         return;
     }
 
     let listBaru = document.createElement('li');
+    
+    let checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    listbaru.appendChild(checkbox);
 
     let spanBaru = document.createElement('span');
     
