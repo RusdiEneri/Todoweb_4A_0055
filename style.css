@@ -80,3 +80,13 @@ li {
     text-decoration: line-through;
     color: #9ca3af;
 }
+
+.btn-edit {
+    background: #3b82f6;
+    color: white;
+    border: none;   
+    padding: 5px 10px;
+    border-radius: 4px; 
+    cursor: pointer;
+    margin-left: 5px;
+}
