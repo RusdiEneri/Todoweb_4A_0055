@@ -11,6 +11,7 @@ btnTambah.addEventListener('click', function() {
     }
 
     let listBaru = document.createElement('li');
+
     let spanBaru = document.createElement('span');
     
     spanBaru.innerHTML = inputTugas.value;
@@ -29,5 +30,6 @@ btnTambah.addEventListener('click', function() {
     })
 
     inputTugas.value = "";
+    inputTanggal.value = "";
 
 });
