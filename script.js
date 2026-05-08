@@ -19,8 +19,8 @@ btnTambah.addEventListener('click', function() {
     checkbox.type = "checkbox";
     listBaru.appendChild(checkbox);
 
-    // const containerTeks = document.createElement("div");
-    // containerTeks.style.flex = "1";
+    const containerTeks = document.createElement("div");
+    containerTeks.style.flex = "1";
 
     let spanTugas = document.createElement('span');
     spanTugas.innerHTML = teksTugas;
@@ -28,7 +28,12 @@ btnTambah.addEventListener('click', function() {
 
     let spanTanggal = document.createElement('small');
     spanTanggal.innerHTML =  ` (${teksTanggal}) `;
+    spanTanggal.style.display = "block";
     listBaru.appendChild(spanTanggal);
+
+    containerTeks.appendChild(spanTugas);
+    containerTeks.appendChild(spanTanggal);
+    listBaru.appendChild(containerTeks);
 
     daftarTugas.appendChild(listBaru);
 
