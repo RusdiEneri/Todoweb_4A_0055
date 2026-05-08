@@ -5,10 +5,10 @@ const inputTanggal = document.getElementById('inputTanggal');
 
 btnTambah.addEventListener('click', function() {
     
-    let teksTugas = inputTugas.value;
+    let inputTugasValue = inputTugas.value;
     let inputTanggalValue = inputTanggal.value;
 
-    if (teksTugas === '') {
+    if (inputTugasValue === '') {
         alert('Tolong masukkan tugas!');
         return;
     }
@@ -16,7 +16,7 @@ btnTambah.addEventListener('click', function() {
     let listBaru = document.createElement('li');
     let spanBaru = document.createElement('span');
     
-    spanBaru.innerHTML = teksTugas;
+    spanBaru.innerHTML = inputTugasValue;
 
     listBaru.appendChild(spanBaru);
 
