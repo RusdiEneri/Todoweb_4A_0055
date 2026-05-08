@@ -104,3 +104,7 @@ li {
     cursor: pointer;
     margin-left: 5px;
 } 
+
+.btn-delete:hover {
+    background: #dc2626;
+}
