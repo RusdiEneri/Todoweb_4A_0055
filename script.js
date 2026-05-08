@@ -52,6 +52,19 @@ btnTambah.addEventListener('click', function() {
         }
     });
 
+    const btnEdit = document.createElement("button");
+    btnEdit.innerHTML = "Edit";
+    btnEdit.className = "btn-edit";
+
+    btnEdit.onclick = function(){
+        const newTask = prompt("Edit nama tugas:", spanTugas.innerHTML);
+        if(newTask !== null && newTask.trim() !== ""){
+            spanTugas.innerHTML = newTask;           
+        }
+    };
+    listbaru.appendChild(btnEdit);
+
+    
 
     daftarTugas.appendChild(listBaru);
 
