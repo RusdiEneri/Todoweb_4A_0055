@@ -70,10 +70,10 @@ btnTambah.addEventListener('click', function() {
 
     btnDelete.onclick = function(){
         if(confirm("Hapus tugas ini?")){
-            listbaru.remove();
+            listBaru.remove();
         }
     };
-    listbaru.appendChild(btnDelete);
+    listBaru.appendChild(btnDelete);
 
     daftarTugas.appendChild(listBaru);
 
