@@ -35,6 +35,24 @@ btnTambah.addEventListener('click', function() {
     containerTeks.appendChild(spanTanggal);
     listBaru.appendChild(containerTeks);
 
+    const labelStatus = document.createElement("span");
+    labelStatus.innerHTML = "Progress";
+    labelStatus.className = "status-label";
+    listBaru.appendChild(labelStatus);
+
+    checkbox.addEventListener("change", function(){
+        if(this.checked){
+            labelStatus.innerHTML = "Done";
+            labelStatus.className = "status-done";
+            containerTeks.classList.add("task-done");
+        } else {
+            labelStatus.innerHTML = "Progress";
+            labelStatus.className = "status-progress";
+            containerTeks.classList.remove("task-done");
+        }
+    });
+
+
     daftarTugas.appendChild(listBaru);
 
     const warnaBaru = document.querySelectorAll('li');
