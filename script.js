@@ -15,12 +15,12 @@ btnTambah.addEventListener('click', function() {
 
     let listBaru = document.createElement('li');
 
-    let checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    listbaru.appendChild(checkbox);
+    // let checkbox = document.createElement("input");
+    // checkbox.type = "checkbox";
+    // listbaru.appendChild(checkbox);
 
-    const containerTeks = document.createElement("div");
-    containerTeks.style.flex = "1";
+    // const containerTeks = document.createElement("div");
+    // containerTeks.style.flex = "1";
 
     let spanBaru = document.createElement('span');
     
