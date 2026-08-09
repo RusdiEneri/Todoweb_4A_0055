@@ -3,9 +3,9 @@
   <br/>
   <img src="https://img.shields.io/badge/✦%20Quote%20of%20the%20Day%20✦-7c3aed?style=flat-square&labelColor=1a1a2e" />
   <br/><br/>
-  <i>❝ Meskipun semua orang menyalahkannya, atau bahkan jika dirinya juga menyalahkan dirinya sendiri, aku akan menggenggam tangannya dan membawanya ke tempat yang terang. ❞</i>
+  <i>❝ Saat sudah dewasa, kemampuan bersosial itu jadi hal yang penting. ❞</i>
   <br/>
-  <sub>— <b>Shirou Emiya</b> · <i>Fate/stay night Movie: Heaven's Feel - II. Lost Butterfly</i></sub>
+  <sub>— <b>Arataka Reigen</b> · <i>Mob Psycho 100 II</i></sub>
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=2&width=60%" />
 </div>
